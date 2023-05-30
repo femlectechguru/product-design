@@ -23,7 +23,7 @@ body{
     height: 100vh;
     background-image: url(./images/bg-main-desktop.png);
     background-repeat: no-repeat;
-    background-size: 100% 18rem;
+    background-size: 110% 16rem;
 }
 main{
     max-width: 37.5rem;
@@ -362,5 +362,11 @@ form{
    margin-bottom: 0.5rem;
    padding-top: 1rem;
 
+}
+@media screen and (max-width:400px) {
+   .form-group #cvc{
+    position: relative;
+    bottom: 1rem;
+   } 
 }
 }
