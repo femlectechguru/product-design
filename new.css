@@ -241,7 +241,7 @@ form{
 .btn{
     margin-right: 10rem;
     right: 1.7rem;
-    width: 350px;
+    width: 320px;
 }
 @media screen and (min-width:1440px){
     body{
@@ -371,5 +371,8 @@ form{
    .card-number{
     font-size: 0.7rem;
    } 
+  .btn{
+    width: 300px;
+   }
 }
 }
