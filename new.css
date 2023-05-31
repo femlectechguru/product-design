@@ -92,7 +92,7 @@ img{
     letter-spacing: 0.12em;
     color: white;
     margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     position: relative;
     bottom: 3rem;
     right: 1.1rem; 
@@ -363,13 +363,13 @@ form{
    padding-top: 1rem;
 
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:360px) {
    .form-group #cvc{
     position: relative;
     bottom: 1rem;
    }
    .card-number{
-    font-size: 1rem;
+    font-size: 0.7rem;
    } 
 }
 }
